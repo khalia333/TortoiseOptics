@@ -1,0 +1,35 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* Navigation Styling */
+.container.navigation {
+  background-color: cadetblue;
+  display: flex;
+  color: white;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-branding {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 1rem 2rem 1rem 0;
+}
