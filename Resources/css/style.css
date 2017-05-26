@@ -10,18 +10,28 @@ html {
 }
 
 /* Navigation Styling */
-.container.navigation {
+.navigation {
   background-color: cadetblue;
   display: flex;
   color: white;
-  margin-top: 1rem;
   align-items: center;
   justify-content: space-between;
+  border: 1px solid blue;
+  max-height: 3rem;
+  margin: 1rem auto;
 }
 
 .logo-branding {
   display: flex;
   align-items: center;
+}
+
+.logo-branding img {
+  height: 1.5rem;
+  margin: 0 1rem 0 2rem;
+}
+.nav-bar {
+  padding: 1rem 0;
 }
 
 .nav-links li {
@@ -31,5 +41,17 @@ html {
 .nav-links a {
   color: white;
   text-decoration: none;
-  margin: 1rem 2rem 1rem 0;
+  margin-right: 2rem;
+}
+
+
+/* Main Header and Tagline */
+.header {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/glasses-bg.png);
+  background-size: cover;
+  height: 30rem;
+  display: flex;
+  flex-wrap: wrap;
 }
